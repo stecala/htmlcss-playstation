@@ -1,0 +1,16 @@
+:root{
+    --blue: #0070d1;
+    --bg-grey:#1f1f1f;
+    --light-grey:#bebcbb;
+    --bg-dark-blue:#161c3b;
+    --bg-btn:#363636;
+}
+.ms_height_logo{
+    height: 30px;
+}
+.ms_btn{
+    border-radius: 2rem;
+}
+.ms_btn_bg{
+    background-color: var(--bg-btn);
+}
