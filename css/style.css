@@ -1,16 +1,54 @@
-:root{
+:root {
     --blue: #0070d1;
-    --bg-grey:#1f1f1f;
-    --light-grey:#bebcbb;
-    --bg-dark-blue:#161c3b;
-    --bg-btn:#363636;
+    --bg-grey: #1f1f1f;
+    --light-grey: #bebcbb;
+    --bg-dark-blue: #161c3b;
+    --bg-btn: #363636;
+    --bg-btn-2: #CD3D0F;
 }
-.ms_height_logo{
+
+img {
+    width: 100%;
+}
+
+.ms_height_logo {
     height: 30px;
+    width: 100px;
 }
-.ms_btn{
+
+.ms_btn {
     border-radius: 2rem;
 }
-.ms_btn_bg{
+
+.ms_btn_bg {
     background-color: var(--bg-btn);
+}
+
+.ms_btn_bg_orange {
+    background-color: var(--bg-btn-2);
+}
+
+.ms_jumbo {
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.ms_margin_top {
+    margin-top: 400px;
+}
+
+.ms_hover_pointer:hover {
+    cursor: pointer;
+}
+.ms_font_size{
+    font-size: 2.5rem;
+}
+.ms_max_width{
+    max-width: 800px;
+}
+.ms_btn_bg_blue{
+    background-color: var(--blue);
 }
