@@ -7,16 +7,20 @@
     --bg-btn-2: #CD3D0F;
     --bg-blue: #00439C;
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 img {
     width: 100%;
 }
 
 .ms_height_logo {
     height: 30px;
+    width: 100px;
 }
 
 .ms_btn {
+    border: none;
     border-radius: 2rem;
 }
 
@@ -124,4 +128,62 @@ footer ul{
 }
 .ms_bg_blue_light{
     background-color: var(--bg-blue);
+}
+.ms_button_hover{
+    border: 2px solid rgba(255, 255, 255, 0);
+    outline: solid rgba(255, 255, 255, 0);
+}
+.ms_button_hover_color_1:hover{
+    border: var(--bg-dark-blue) 2px solid;
+    outline: solid white;
+}
+.ms_button_hover_color_2:hover{
+    border: var(--light-grey) 2px solid;
+    outline: solid rgba(255, 255, 255, 0.5);
+}
+.ms_button_hover_color_3:hover{
+    border: 2px solid white;
+    outline: solid var(--blue);
+}
+.ms_button_hover_color_4:hover{
+    border: 2px solid rgb(32, 15, 15);
+    outline: solid var(--bg-btn-2);
+}
+.ms_button_hover_color_5:hover{
+    border: 2px solid white;
+    outline: solid var(--bg-btn);
+}
+.ms_world{
+    height: 30px;
+}
+.ms_txt_dec{
+    text-decoration: none !important;
+    color: black;
+    position: relative;
+}
+.ms_txt_dec::before{
+    content:"\2022";
+    font-size: 2rem;
+    color: blue;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+.dropdown-menu{
+    width: 100vw;
+    margin-top: -1px !important;
+    border-radius: 0;
+    border: 0;
+}
+.nav-item.dropdown{
+    position: static;
+}
+.ms_li_width{
+    max-width: 100px;
+}
+.ms_img_dropdown{
+    max-width: 50px;
+}
+.ms_list_style{
+    list-style: none;
 }
