@@ -88,9 +88,6 @@ img {
 .ms_btn_bg_transp{
     background-color: rgba(255, 255, 255, 0.5);
 }
-.ms_width{
-    width: 50%;
-}
 .ms_max_width_logo{
     max-width: 300px;
 }
@@ -102,4 +99,19 @@ img {
 }
 .ms_bg_blue{
     background-color: var(--bg-dark-blue);
+}
+.ms_outline{
+    outline-style: solid;
+    color: var(--blue);
+}
+.ms_width{
+    max-width: 200px;
+    transition: all ease-in-out 0.5s;
+}
+.ms_width img{
+    box-shadow: 20px 20px 50px grey;
+}
+.ms_width:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
