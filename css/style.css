@@ -77,8 +77,29 @@ img {
     transition: 0.5s ease-in-out;
 }
 .mc_hover_transform:hover{
-    transform: translate(0px, -50px);
+    transform: translate(0px, -15px);
 }
 .mc_hover_transform:hover img{
-    box-shadow: 8px 8px rgba(59, 59, 59, 0.473);
+    box-shadow: 20px 20px 50px grey;
+}
+.mc_bg_lightgrey{
+    background-color: var(--light-grey);
+}
+.ms_btn_bg_transp{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.ms_width{
+    width: 50%;
+}
+.ms_max_width_logo{
+    max-width: 300px;
+}
+.ms_max_width_banner{
+    max-width: 600px;
+}
+.ms_min_height{
+    min-height: 255px;
+}
+.ms_bg_blue{
+    background-color: var(--bg-dark-blue);
 }
