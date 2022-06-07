@@ -5,6 +5,7 @@
     --bg-dark-blue: #161c3b;
     --bg-btn: #363636;
     --bg-btn-2: #CD3D0F;
+    --bg-blue: #00439C;
 }
 
 img {
@@ -13,7 +14,6 @@ img {
 
 .ms_height_logo {
     height: 30px;
-    width: 100px;
 }
 
 .ms_btn {
@@ -114,4 +114,14 @@ img {
 .ms_width:hover{
     transform: scale(1.05);
     cursor: pointer;
+}
+.ms_width_logo_foot{
+    max-width: 150px;
+    min-width: 75px;
+}
+footer ul{
+    list-style: none;
+}
+.ms_bg_blue_light{
+    background-color: var(--bg-blue);
 }
