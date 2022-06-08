@@ -170,7 +170,7 @@ footer ul{
     left: -15px;
 }
 .dropdown-menu{
-    width: 100vw;
+    width: 100%;
     margin-top: -1px !important;
     border-radius: 0;
     border: 0;
