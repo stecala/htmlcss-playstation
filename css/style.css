@@ -183,6 +183,7 @@ footer ul{
 }
 .ms_img_dropdown{
     max-width: 50px;
+    transition: all ease-in-out 0.5s;
 }
 .ms_img_dropdown:hover{
     box-shadow: 10px 10px 10px grey;
