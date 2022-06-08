@@ -184,6 +184,24 @@ footer ul{
 .ms_img_dropdown{
     max-width: 50px;
 }
+.ms_img_dropdown:hover{
+    box-shadow: 10px 10px 10px grey;
+    cursor: pointer;
+}
 .ms_list_style{
     list-style: none;
+}
+.dropdown-toggle::after{
+    background-image: url(../img/chevron-down-solid.svg);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    border: 0;
+    content: "";
+    transform: translateY(6px);
+    transition: 0.5s;
+}
+
+.dropdown-toggle.show::after{
+    transform: rotate(180deg);
 }
